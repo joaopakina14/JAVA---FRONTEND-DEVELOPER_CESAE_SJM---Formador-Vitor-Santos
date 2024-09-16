@@ -14,15 +14,15 @@ public class exercicio2 {
         //as seguintes operações aritméticas: soma, subtração, multiplicação e divisão. Apresente o resultado
         //das operações e teste os resultados obtidos com vários casos.
 
-        int num1, num2, soma, subtraçao, multiplicaçao, divisao;
+        double num1, num2, soma, subtraçao, multiplicaçao, divisao;
 
         //ler numero 1
         System.out.println("Introduza o primeiro número: ");
-        num1= input.nextInt();
+        num1= input.nextDouble();
 
         //ler numero 2
         System.out.println("Introduza o segundo número: ");
-        num2=input.nextInt();
+        num2=input.nextDouble();
 
         //Calcular a soma
         soma=num1+num2;
@@ -50,3 +50,5 @@ public class exercicio2 {
 
     }
 }
+
+        //O professor na resolução usou a variável Double!

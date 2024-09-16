@@ -26,13 +26,5 @@ public class exercicio4 {
 
         System.out.println("Area da circunferencia: "+circunf);
 
-
-
-
-
-
-
-
-
     }
 }
