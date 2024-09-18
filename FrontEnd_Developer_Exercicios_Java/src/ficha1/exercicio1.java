@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class exercicio1 {
     public static void main(String[] args) {
 
+        // Leia dois números inteiros e escreva na consola o maior deles.
+
         //Habilitar a escrita do user
 
         Scanner input = new Scanner(System.in);
