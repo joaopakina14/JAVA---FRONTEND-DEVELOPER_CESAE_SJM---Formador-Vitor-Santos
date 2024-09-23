@@ -14,112 +14,126 @@ public class exercicio13 {
         int horas, horasAm, minutos;
 
         //Inserir as horas
-        System.out.println("Introduza as horas: ");
+        System.out.println("Tell me the hours: ");
         horas = input.nextInt();
 
-        System.out.println("Introduza os minutos: ");
+        System.out.println("Tell me the minutes: ");
         minutos = input.nextInt();
 
-        if (horas>0 && horas<13) {
-            System.out.println("São " + horas + " horas");
-            System.out.println("E " + minutos + " minutos.");
-        }
-
-        if (horas == 13) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
-
-            System.out.println("E " + minutos + " minutos.");
+        if (horas > 0 && horas < 13) {
+            System.out.println("It is " + horas + ":" + minutos + "am");
+            //System.out.println("São " + horas + " horas");
+            //System.out.println("E " + minutos + " minutos.");
 
         }
-        if (horas == 14) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
 
-            System.out.println("E " + minutos + " minutos.");
+            if (horas == 13) {
 
-        }
-        if (horas == 15) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-            System.out.println("E " + minutos + " minutos.");
+                //System.out.println("E " + minutos + " minutos.");
 
-        }
-        if (horas == 16) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+            }
+            if (horas == 14) {
 
-            System.out.println("E " + minutos + " minutos.");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-        }
-        if (horas == 17) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                //System.out.println("E " + minutos + " minutos.");
 
-            System.out.println("E " + minutos + " minutos.");
+            }
+            if (horas == 15) {
 
-        }
-        if (horas == 18) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-            System.out.println("E " + minutos + " minutos.");
+                //System.out.println("E " + minutos + " minutos.");
 
-        }
-        if (horas == 19) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+            }
+            if (horas == 16) {
 
-            System.out.println("E " + minutos + " minutos.");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-        }
-        if (horas == 20) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                //System.out.println("E " + minutos + " minutos.");
 
-            System.out.println("E " + minutos + " minutos.");
+            }
+            if (horas == 17) {
 
-        }
-        if (horas == 21) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-            System.out.println("E " + minutos + " minutos.");
+                //System.out.println("E " + minutos + " minutos.");
 
-        }
-        if (horas == 22) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+            }
+            if (horas == 18) {
 
-            System.out.println("E " + minutos + " minutos.");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-        }
-        if (horas == 23) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                //System.out.println("E " + minutos + " minutos.");
 
-            System.out.println("E " + minutos + " minutos.");
+            }
+            if (horas == 19) {
 
-        }
-        if (horas == 24) {
-            ;
-            horasAm = horas - 12;
-            System.out.println("São: " + horasAm + " hora");
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
 
-            System.out.println("E " + minutos + " minutos.");
+                //System.out.println("E " + minutos + " minutos.");
 
+            }
+            if (horas == 20) {
+
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
+
+                //System.out.println("E " + minutos + " minutos.");
+
+            }
+            if (horas == 21) {
+
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
+
+                //System.out.println("E " + minutos + " minutos.");
+
+            }
+            if (horas == 22) {
+
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
+
+                //System.out.println("E " + minutos + " minutos.");
+
+            }
+            if (horas == 23) {
+
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
+
+                //System.out.println("E " + minutos + " minutos.");
+
+            }
+            if (horas == 24) {
+
+                horasAm = horas - 12;
+                System.out.println("It is " +horasAm + ":" + minutos + "pm");
+                //System.out.println("São: " + horasAm + " hora");
+
+                //System.out.println("E " + minutos + " minutos.");
+
+            }
         }
     }
-}
