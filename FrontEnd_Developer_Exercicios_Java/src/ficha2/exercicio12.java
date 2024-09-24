@@ -17,7 +17,7 @@ public class exercicio12 {
 
 
 
-        System.out.println("Introduza:\n1 para Criar\n2 para Atualizar\n3 para Eliminar\n4 para Sair.");
+        System.out.println("Prima:\n1 para Criar\n2 para Atualizar\n3 para Eliminar\n4 para Sair.");
         menu = input.nextInt();
 
         switch (menu){

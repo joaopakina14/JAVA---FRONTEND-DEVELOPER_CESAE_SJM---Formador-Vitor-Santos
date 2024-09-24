@@ -22,8 +22,8 @@ public class exercicio11 {
         if (saldo + movimento<0){;
             System.out.println("O seu saldo é negativo");
 
-        }
-        if (saldo + movimento>0){
+        }//ou if (saldo + movimento>0)
+        else{
             System.out.println("O seu saldo é:"+(saldo+movimento));
         }
     }
