@@ -10,8 +10,10 @@ public class exercicio2 {
         int numeropares=0;
 
         while (numeropares<=400){
+
+            if (numeropares % 2 == 0)
             System.out.println(numeropares);
-            numeropares=numeropares+2;
+            numeropares=numeropares+1;
 
         }
     }

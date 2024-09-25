@@ -19,6 +19,10 @@ public class exercicio5 {
         while (contador<numint){
             System.out.println("Não percebo nada de programação");
             contador++;
+
+        //ATENÇAO
+        // NUM ++ É IGUAL A NUM +=1
+        //OU NUM -- É IGUAL A NUM -=1
         }
 
 

@@ -7,11 +7,11 @@ public class exercicio3 {
     // Faça um programa que imprima os números ímpares no intervalo de 531 a 750 inclusive. (Não necessita de
         //Scanner ou input do utilizador)
 
-        int numerosimpares=531;
+        int contador=531;
 
-        while(numerosimpares<=750) {
-            System.out.println(numerosimpares);
-            numerosimpares = numerosimpares + 2;
+        while(contador<=750) {
+            System.out.println(contador);
+            contador = contador + 2;
         }
     }
 }
