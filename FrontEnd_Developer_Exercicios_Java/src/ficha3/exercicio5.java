@@ -21,7 +21,7 @@ public class exercicio5 {
             contador++;
 
         //ATENÇAO
-        // NUM ++ É IGUAL A NUM +=1
+        // NUM ++ É IGUAL A NUM+=1
         //OU NUM -- É IGUAL A NUM -=1
         }
 
