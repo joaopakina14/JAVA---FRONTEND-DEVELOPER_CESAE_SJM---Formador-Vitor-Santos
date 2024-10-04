@@ -9,18 +9,22 @@ public class exercicio14 {
         //Escreva um programa que leia uma sequência de números inteiros do utilizador e determine se a sequência
         //está em ordem crescente.
 
-        int contador=0, numAlgarismos=0;
-        contador += numAlgarismos;
+        int contador=0, quantAlgarismos, numero, numAnt, numAtual;
 
-        System.out.println(" Quantos números deseja inserir: ");
-        numAlgarismos = input.nextInt();
+        //ler quantidade
 
-        while(contador<numAlgarismos){
-            System.out.println(" Introduza um número:");
+        System.out.println("quantos números deseja inserir: ");
+        quantAlgarismos= input.nextInt();
+
+        while(contador<quantAlgarismos){
+            System.out.println("insira um numero: ");
+            numero= input.nextInt();
+
             contador++;
+        }
 
 
         }
 
     }
-}
+

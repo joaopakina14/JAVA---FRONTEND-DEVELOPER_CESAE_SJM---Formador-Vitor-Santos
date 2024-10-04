@@ -11,5 +11,20 @@ public class exercicio15 {
         //Exemplo de Fatorial de 5: 5x4x3x2x1=120
         //Exemplo de Fatorial de 8: 8x7x6x5x4x3x2x1=40320
 
+        int contador=1, num, fatorial=1;
+
+        System.out.println("Introduza um algarismo: ");
+        num= input.nextInt();
+
+        while (contador<=num){
+            fatorial=fatorial * contador;
+            contador++;
+
+
+        }
+        System.out.println(num + fatorial);
+
+
+
     }
 }

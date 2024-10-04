@@ -14,9 +14,9 @@ public class exercicio7 {
         int contador=1, soma=0;
 
         while (contador<=100){
-            System.out.println(contador);
+            System.out.println(" "+contador + " dá");
             soma = soma+contador;
-            System.out.println(soma);
+            System.out.println("Este número " + soma +  " com ");
             contador++;
 
 
